@@ -119,7 +119,7 @@ class creategroundplane(bpy.types.Operator):
     
 #----------------------------------------- Create panel in the toolshelf -------------------------------------------------
 
-class Createisocampanel(bpy.types.Panel):
+class CREATE_PT_isocampanel(bpy.types.Panel):
     bl_label = "Create IsoCam"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
@@ -147,7 +147,7 @@ def register():
     bpy.utils.register_class(creategameisocam)
     bpy.utils.register_class(creategameisocam4to3)
     bpy.utils.register_class(creategroundplane)
-    bpy.utils.register_class(Createisocampanel)
+    bpy.utils.register_class(CREATE_PT_isocampanel)
 
         # handle the keymap
     wm = bpy.context.window_manager
@@ -165,7 +165,7 @@ def unregister():
     bpy.utils.unregister_class(creategameisocam)
     bpy.utils.unregister_class(creategameisocam4to3)
     bpy.utils.unregister_class(creategroundplane)
-    bpy.utils.unregister_class(Createisocampanel)
+    bpy.utils.unregister_class(CREATE_PT_isocampanel)
 
         # handle the keymap
     wm = bpy.context.window_manager
