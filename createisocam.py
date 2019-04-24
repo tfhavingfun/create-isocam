@@ -119,7 +119,7 @@ class creategroundplane(bpy.types.Operator):
     
 #----------------------------------------- Create panel in the toolshelf -------------------------------------------------
 
-class CREATE_PT_isocampanel(bpy.types.Panel):
+class VIEW3D_PT_create_isocampanel(bpy.types.Panel):
     bl_label = "Create IsoCam"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
