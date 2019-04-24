@@ -147,7 +147,7 @@ def register():
     bpy.utils.register_class(creategameisocam)
     bpy.utils.register_class(creategameisocam4to3)
     bpy.utils.register_class(creategroundplane)
-    bpy.utils.register_class(CREATE_PT_isocampanel)
+    bpy.utils.register_class(VIEW3D_PT_create_isocampanel)
 
         # handle the keymap
     wm = bpy.context.window_manager
@@ -165,7 +165,7 @@ def unregister():
     bpy.utils.unregister_class(creategameisocam)
     bpy.utils.unregister_class(creategameisocam4to3)
     bpy.utils.unregister_class(creategroundplane)
-    bpy.utils.unregister_class(CREATE_PT_isocampanel)
+    bpy.utils.unregister_class(VIEW3D_PT_create_isocampanel)
 
         # handle the keymap
     wm = bpy.context.window_manager
